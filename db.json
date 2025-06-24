@@ -1,34 +1,81 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "Getting Started with JavaScript",
-      "content": "JavaScript is a powerful scripting language used to create dynamic and interactive content on the web. It can manipulate the DOM, handle events, and communicate with APIs.",
-      "author": "Jane Doe"
+      "id": "1",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "content": "A timeless classic that explores justice and morality through the eyes of a young girl in the American South.",
+      "image": "https://m.media-amazon.com/images/I/81OdwZG4z+L.jpg"
     },
     {
-      "id": 2,
-      "title": "Understanding CSS Flexbox",
-      "content": "Flexbox is a CSS layout module that makes it easy to design flexible and responsive layout structures. It works well for both one-dimensional and two-dimensional layouts.",
-      "author": "Mark King"
+      "id": "2",
+      "title": "1984",
+      "author": "George Orwell",
+      "content": "A haunting dystopian vision of a world consumed by totalitarian surveillance and repression.",
+      "image": "https://m.media-amazon.com/images/I/71kxa1-0zfL.jpg"
     },
     {
-      "id": 3,
-      "title": "Building Single Page Applications",
-      "content": "Single Page Applications (SPAs) dynamically update the page without reloading it. They use JavaScript to control routing, views, and data fetching.",
-      "author": "Amina Wanjiku"
+      "id": "3",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "content": "A witty and romantic tale that critiques the British class system with charm and insight.",
+      "image": "https://m.media-amazon.com/images/I/81AFocW+Q1L.jpg"
     },
     {
-      "id": 4,
-      "title": "Connecting to APIs with Fetch",
-      "content": "The Fetch API provides a modern way to make network requests. It's promise-based and can be used to retrieve, post, and modify data from RESTful APIs.",
-      "author": "Brian Njoroge"
+      "id": "4",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "content": "A tragic exploration of the American Dream, wealth, and lost love in the Roaring Twenties.",
+      "image": "https://m.media-amazon.com/images/I/81af+MCATTL.jpg"
     },
     {
-      "id": 5,
-      "title": "Debugging JavaScript Like a Pro",
-      "content": "To debug effectively, use browser developer tools. Learn to set breakpoints, inspect variables, and track execution flow to identify bugs quickly.",
-      "author": "Linet Atieno"
+      "id": "5",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "content": "A gothic romance that follows a strong and independent woman confronting love and social expectations.",
+      "image": "https://m.media-amazon.com/images/I/91HHqVTAJQL.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "content": "A coming-of-age novel that captures teenage angst and alienation in post-war America.",
+      "image": "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Beloved",
+      "author": "Toni Morrison",
+      "content": "A powerful and poetic novel that examines the horrors of slavery and the strength of Black motherhood.",
+      "image": "https://m.media-amazon.com/images/I/71y6pyoYr5L.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "content": "A delightful fantasy adventure that sets the stage for Middle-earth's epic saga.",
+      "image": "https://m.media-amazon.com/images/I/91b0C2YNSrL.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "content": "A profound story of tradition, colonialism, and cultural change in pre-colonial Nigeria.",
+      "image": "https://m.media-amazon.com/images/I/81sbVxbZlAL.jpg"
+    },
+    {
+      "id": "10",
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "content": "An emotional tale of friendship, betrayal, and redemption set against the backdrop of Afghanistan's turbulent history.",
+      "image": "https://m.media-amazon.com/images/I/81h2gWPTYJL.jpg"
+    },
+    {
+      "id": "d31d",
+      "title": "The Gods That Falled",
+      "author": "Larry Elliot",
+      "image": "https://www.google.com/imgres?q=the%20gods%20that%20failed&imgurl=https%3A%2F%2Fcdn2.penguin.com.au%2Fcovers%2Foriginal%2F9781407021300.jpg&imgrefurl=https%3A%2F%2Fwww.penguin.com.au%2Fbooks%2Fthe-gods-that-failed-9781407021300&docid=QKqRgIxvZz47eM&tbnid=jGuglwSthMatlM&vet=12ahUKEwj_8on9vomOAxXJUKQEHe4SIFQQM3oECGMQAA..i&w=759&h=1167&hcb=2&ved=2ahUKEwj_8on9vomOAxXJUKQEHe4SIFQQM3oECGMQAA",
+      "content": "exciting book."
     }
   ]
 }
