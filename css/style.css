@@ -1,161 +1,157 @@
-/* Global Styles */
-*,
-*::before,
-*::after {
+/* Reset and Base */
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #f8f9fa;
-  color: #333;
+  background-color: #e0f4ff; /* Light blue */
+  padding: 2rem;
+  min-height: 100vh;
 }
 
-/* Header */
 header {
-  background: linear-gradient(to right, #4b6cb7, #182848);
-  color: white;
-  padding: 25px 20px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #004080;
+  margin-bottom: 0.5rem;
 }
 
-#toggle-form-btn {
-  margin-top: 10px;
-  padding: 10px 16px;
-  background-color: #ffc107;
-  color: #212529;
-  font-weight: bold;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+header h3 {
+  font-size: 1.5rem;
+  color: #0059b3;
 }
 
-#toggle-form-btn:hover {
-  background-color: #ffca2c;
-}
-
-/* Layout */
-main {
+.container {
   display: flex;
-  gap: 20px;
-  padding: 20px;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: auto;
 }
 
-/* Sidebar (Post Titles) */
-#post-list {
-  width: 25%;
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+.sidebar {
+  flex: 1;
   max-height: 600px;
   overflow-y: auto;
+  border-right: 2px solid #b0d6ec;
+  padding-right: 1rem;
 }
 
-#post-list div {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-#post-list div:hover {
-  background-color: #e3f2fd;
-}
-
-/* Post Details */
-#post-detail {
-  flex: 1;
-  background: #ffffff;
+.sidebar div {
+  background-color: #d4eeff;
+  margin-bottom: 1rem;
+  padding: 1rem;
   border-radius: 8px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: bold;
+  color: #003366;
 }
 
-#post-detail img {
+.sidebar div:hover {
+  background-color: #b3e6ff;
+}
+
+.main {
+  flex: 2;
+  padding-left: 1rem;
+}
+
+.main img {
   max-width: 100%;
   height: auto;
-  margin: 15px 0;
-  border-radius: 6px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-}
-
-/* Form Styling (New + Edit) */
-form {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin: 20px;
-  padding: 20px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
-}
-
-form h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-  color: #343a40;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ced4da;
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-textarea {
-  resize: vertical;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 button {
-  padding: 10px 15px;
-  font-weight: bold;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem 0.5rem 1rem 0;
+  font-size: 1rem;
   border: none;
-  border-radius: 5px;
-  background-color: #0d6efd;
-  color: white;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s;
-  margin-right: 10px;
+  transition: 0.3s;
+  font-weight: bold;
 }
 
-button:hover {
-  background-color: #0b5ed7;
+#toggle-form-btn {
+  background-color: #007bff;
+  color: white;
 }
 
-/* Special Buttons */
-#delete-btn {
-  background-color: #dc3545;
+#toggle-form-btn:hover {
+  background-color: #0056b3;
 }
 
-#delete-btn:hover {
-  background-color: #bb2d3b;
+form {
+  background-color: #f5fbff;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+form button[type="submit"]:hover {
+  background-color: #1e7e34;
 }
 
 #cancel-edit {
   background-color: #6c757d;
+  color: white;
 }
 
 #cancel-edit:hover {
-  background-color: #5a6268;
+  background-color: #495057;
 }
 
-/* Hide Forms */
+#delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+#delete-btn:hover {
+  background-color: #c82333;
+}
+
 .hidden {
   display: none;
 }
 
-
-
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    border-right: none;
+    border-bottom: 2px solid #b0d6ec;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+}
