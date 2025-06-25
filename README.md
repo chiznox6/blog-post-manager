@@ -44,6 +44,5 @@ Advanced Features Completed      Includes full server sync for POST, PATCH, DELE
 
 1. Clone or download the repo**
 
-   git clone https://github.com/your-username/blog-post-manager.git
-   
+   git clone https://github.com/chiznox6/blog-post-manager.git
 
