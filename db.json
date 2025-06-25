@@ -1,27 +1,6 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "content": "A timeless classic that explores justice and morality through the eyes of a young girl in the American South.",
-      "image": "https://m.media-amazon.com/images/I/81OdwZG4z+L.jpg"
-    },
-    {
-      "id": "2",
-      "title": "1984",
-      "author": "George Orwell",
-      "content": "A haunting dystopian vision of a world consumed by totalitarian surveillance and repression.",
-      "image": "https://m.media-amazon.com/images/I/71kxa1-0zfL.jpg"
-    },
-    {
-      "id": "3",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "content": "A witty and romantic tale that critiques the British class system with charm and insight.",
-      "image": "https://m.media-amazon.com/images/I/81AFocW+Q1L.jpg"
-    },
-    {
       "id": "4",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
@@ -43,13 +22,6 @@
       "image": "https://m.media-amazon.com/images/I/81OthjkJBuL.jpg"
     },
     {
-      "id": "7",
-      "title": "Beloved",
-      "author": "Toni Morrison",
-      "content": "A powerful and poetic novel that examines the horrors of slavery and the strength of Black motherhood.",
-      "image": "https://m.media-amazon.com/images/I/71y6pyoYr5L.jpg"
-    },
-    {
       "id": "8",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",
@@ -57,25 +29,18 @@
       "image": "https://m.media-amazon.com/images/I/91b0C2YNSrL.jpg"
     },
     {
-      "id": "9",
-      "title": "Things Fall Apart",
-      "author": "Chinua Achebe",
-      "content": "A profound story of tradition, colonialism, and cultural change in pre-colonial Nigeria.",
-      "image": "https://m.media-amazon.com/images/I/81sbVxbZlAL.jpg"
-    },
-    {
-      "id": "10",
-      "title": "The Kite Runner",
-      "author": "Khaled Hosseini",
-      "content": "An emotional tale of friendship, betrayal, and redemption set against the backdrop of Afghanistan's turbulent history.",
-      "image": "https://m.media-amazon.com/images/I/81h2gWPTYJL.jpg"
-    },
-    {
       "id": "d31d",
       "title": "The Gods That Falled",
       "author": "Larry Elliot",
       "image": "https://www.google.com/imgres?q=the%20gods%20that%20failed&imgurl=https%3A%2F%2Fcdn2.penguin.com.au%2Fcovers%2Foriginal%2F9781407021300.jpg&imgrefurl=https%3A%2F%2Fwww.penguin.com.au%2Fbooks%2Fthe-gods-that-failed-9781407021300&docid=QKqRgIxvZz47eM&tbnid=jGuglwSthMatlM&vet=12ahUKEwj_8on9vomOAxXJUKQEHe4SIFQQM3oECGMQAA..i&w=759&h=1167&hcb=2&ved=2ahUKEwj_8on9vomOAxXJUKQEHe4SIFQQM3oECGMQAA",
       "content": "exciting book."
+    },
+    {
+      "id": "2176",
+      "title": "the dark of the sun",
+      "author": "Wilbur smith",
+      "image": "https://www.google.com/imgres?q=dark%20of%20the%20sun%20wilbur%20smith&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81mc5s6br5L._UF1000%2C1000_QL80_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FDark-Sun-Wilbur-Smith%2Fdp%2F0312940696&docid=CPcIpuvJN4XdHM&tbnid=Uz9w_X-U-66m-M&vet=12ahUKEwju8r7uwomOAxU5KvsDHeCCCzsQM3oECB4QAA..i&w=622&h=1000&hcb=2&ved=2ahUKEwju8r7uwomOAxU5KvsDHeCCCzsQM3oECB4QAA",
+      "content": "interesting book."
     }
   ]
 }
