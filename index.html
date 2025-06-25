@@ -2,31 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Blog Post Manager</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header style="text-align: center; margin-bottom: 2rem;">
-    <h1>Blog Post Manager</h1>
-    <h3>Novel Blog Reviews</h3>
+  <header>
+    <h1> Blog-Post-Manager</h1>
+    <h2>Novel Review Blog</h2>
+    <button id="toggle-form-btn">Add a New Review</button>
   </header>
 
-  <div class="container">
-    <div id="post-list" class="sidebar"></div>
-    <div id="post-detail" class="main"></div>
-  </div>
-
-  <div style="text-align: center; margin-top: 2rem;">
-    <button id="toggle-form-btn">Add New Post</button>
-  </div>
+  <main class="container">
+    <aside id="post-list"></aside>
+    <section id="post-detail"></section>
+  </main>
 
   <form id="new-post-form" class="hidden">
-    <h4>Add New Post</h4>
-    <input type="text" id="title" placeholder="Title" required />
+    <h3>Add a New Review</h3>
+    <input type="text" id="title" placeholder="Book Title" required />
     <input type="text" id="author" placeholder="Author" required />
-    <input type="text" id="image" placeholder="Image URL" required />
-    <textarea id="content" placeholder="Content" rows="5" required></textarea>
+    <input type="url" id="image" placeholder="Image URL" />
+    <textarea id="content" placeholder="Write your review..." required></textarea>
     <button type="submit">Submit</button>
   </form>
 
@@ -39,6 +36,7 @@
     <button type="button" id="cancel-edit">Cancel</button>
   </form>
 
-  <script src="index.js"></script>
+  <script src="src/index.js"></script>
+
 </body>
 </html>

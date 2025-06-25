@@ -30,17 +30,17 @@
     },
     {
       "id": "d31d",
-      "title": "The Gods That Falled",
-      "author": "Larry Elliot",
-      "image": "https://www.google.com/imgres?q=the%20gods%20that%20failed&imgurl=https%3A%2F%2Fcdn2.penguin.com.au%2Fcovers%2Foriginal%2F9781407021300.jpg&imgrefurl=https%3A%2F%2Fwww.penguin.com.au%2Fbooks%2Fthe-gods-that-failed-9781407021300&docid=QKqRgIxvZz47eM&tbnid=jGuglwSthMatlM&vet=12ahUKEwj_8on9vomOAxXJUKQEHe4SIFQQM3oECGMQAA..i&w=759&h=1167&hcb=2&ved=2ahUKEwj_8on9vomOAxXJUKQEHe4SIFQQM3oECGMQAA",
-      "content": "exciting book."
+      "title": "The Gods That Failed",
+      "author": "Larry Elliott",
+      "image": "https://cdn2.penguin.com.au/covers/original/9781407021300.jpg",
+      "content": "Exciting book."
     },
     {
       "id": "2176",
-      "title": "the dark of the sun",
-      "author": "Wilbur smith",
-      "image": "https://www.google.com/imgres?q=dark%20of%20the%20sun%20wilbur%20smith&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81mc5s6br5L._UF1000%2C1000_QL80_.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FDark-Sun-Wilbur-Smith%2Fdp%2F0312940696&docid=CPcIpuvJN4XdHM&tbnid=Uz9w_X-U-66m-M&vet=12ahUKEwju8r7uwomOAxU5KvsDHeCCCzsQM3oECB4QAA..i&w=622&h=1000&hcb=2&ved=2ahUKEwju8r7uwomOAxU5KvsDHeCCCzsQM3oECB4QAA",
-      "content": "interesting book."
+      "title": "The Dark of the Sun",
+      "author": "Wilbur Smith",
+      "image": "https://m.media-amazon.com/images/I/81mc5s6br5L._UF1000,1000_QL80_.jpg",
+      "content": "Interesting book."
     }
   ]
 }

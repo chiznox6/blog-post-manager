@@ -14,7 +14,7 @@ function fetchPosts() {
     .then(res => res.json())
     .then(posts => {
       postList.innerHTML = '';
-      posts.forEach(post => renderPostTitle(post));
+      posts.forEach(renderPostTitle);
       if (posts.length > 0) showPostDetails(posts[0]);
     });
 }
@@ -31,25 +31,26 @@ function showPostDetails(post) {
   postDetail.innerHTML = `
     <h2>${post.title}</h2>
     <p><strong>Author:</strong> ${post.author}</p>
-    <img src="${post.image}" alt="${post.title}" onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'" />
+    <img src="${post.image}" onerror="this.src='https://via.placeholder.com/200x300?text=No+Image'" />
     <p>${post.content}</p>
     <button id="edit-btn">Edit</button>
     <button id="delete-btn">Delete</button>
   `;
 
-  document.getElementById('edit-btn').addEventListener('click', () => {
+  document.getElementById('edit-btn').onclick = () => {
     editPostForm.classList.remove('hidden');
     document.getElementById('edit-title').value = post.title;
     document.getElementById('edit-content').value = post.content;
-  });
+  };
 
-  document.getElementById('delete-btn').addEventListener('click', () => {
+  document.getElementById('delete-btn').onclick = () => {
     fetch(`${baseURL}/${post.id}`, { method: 'DELETE' })
+      .then(fetchPosts)
       .then(() => {
-        fetchPosts();
-        postDetail.innerHTML = '<h2>Deleted</h2><p>The post has been removed.</p>';
+        postDetail.innerHTML = '<p>Post deleted.</p>';
+        editPostForm.classList.add('hidden');
       });
-  });
+  };
 }
 
 newPostForm.addEventListener('submit', e => {
@@ -104,6 +105,4 @@ toggleFormBtn.addEventListener('click', () => {
   newPostForm.classList.toggle('hidden');
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  fetchPosts();
-});
+document.addEventListener('DOMContentLoaded', fetchPosts);
